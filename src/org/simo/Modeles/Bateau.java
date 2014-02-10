@@ -28,6 +28,12 @@ public class Bateau {
 	public void setEquipage(List<Marin> equipage) {
 		this.equipage = equipage;
 	}
+	@Override
+	public String toString() {
+		return "Bateau [nom=" + nom + ", tonnage=" + tonnage + ", equipage="
+				+ equipage + "]";
+	}
+	
 	
 
 }
